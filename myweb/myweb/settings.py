@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "news.apps.NewsConfig",
     "tinymce",
+    "django_cleanup.apps.CleanupConfig",  # should be placed after your apps
 ]
 
 MIDDLEWARE = [
